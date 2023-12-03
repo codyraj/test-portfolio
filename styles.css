@@ -113,6 +113,7 @@ body {
   color: #141c3a;
 }
 .main #hero p {
+  text-align: center;
   margin-top: 20px;
   font-size: 24px;
   font-weight: 400;
