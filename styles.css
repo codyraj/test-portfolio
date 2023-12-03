@@ -187,7 +187,7 @@ body {
   z-index: 9999;
 }
 
-@media (max-width: 848px) {
+@media (max-width: 424px) {
   #nav {
     display: flex;
     align-items: center;
@@ -195,11 +195,24 @@ body {
     /* background-color: red; */
     height: 90px;
   }
+  #nav h1{
+    padding-left: 40px;
+  }
+  #nav ul{
+    font-size: 15px;
+    padding-left: 10px;
+  }
   .main #hero h1 {
-    font-size: 30px;
+    padding-left: 25px; 
+    font-size: 21px;
     font-weight: 600;
   }
   .main #hero p{
-    font-size: 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .code-image{
+    margin-left: 1000px;
   }
 }
