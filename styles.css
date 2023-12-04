@@ -302,7 +302,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px; 
+  gap: 0px; 
   flex-wrap: wrap;
 }
 .tech-stack .stack{
@@ -313,4 +313,7 @@ footer{
   width: 400px; 
   /* background-color: black; */
   border-radius: 10px;
+}
+.tech-stack img{
+  height: 200px;
 }
