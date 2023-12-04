@@ -15,7 +15,7 @@
 
 body::-webkit-scrollbar {
   display: block;
-  width: 8px;
+  width: 10px;
   background: white;
 }
 body::-webkit-scrollbar-thumb {
@@ -29,7 +29,7 @@ body {
   background-color: #fffbf5;
 }
 .main {
-  height: 300vh;
+  height: 100%;
   position: relative;
   background-color: #fffbf5;
 }
@@ -196,11 +196,11 @@ body {
 }
 /* skill section end */
 
-.footer {
+footer{
   height: 400px;
   width: 100%;
   /* background-color: #6E07F3; */
-  background-color: red;
+  background-color: var(--primary-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -214,4 +214,51 @@ body {
   opacity: 0;
   scale: 0;
   z-index: 9999;
+}
+
+.page-2{
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;  
+  justify-content: start; 
+  align-items: center;
+}
+.page-2 h2{
+  margin-top: 30px;
+  color: black; 
+  text-align: center; 
+  font-size: 35px; 
+  line-height: 30px; 
+}
+.page-2 p{
+  margin-top: 20px;
+  color: white; 
+  color: black;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 23px;
+  line-height: 15px; 
+}
+.page-2 a{
+  color: #085ec2; 
+  opacity: 0.7;
+}
+.projects{
+  margin-top: 100px;
+  height: calc(100% - 428px);
+  width: 80%;
+  /* background-color: rgb(137, 32, 32); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  flex-wrap: wrap;
+}
+.projects .iteam{
+  height: 250px; 
+  width: 400px; 
+  background-color: black;
+  border-radius: 10px;
 }
