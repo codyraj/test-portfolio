@@ -217,35 +217,6 @@ body {
 /* card start */
 
 
-/* responsive page-1 */
-
-/* @media  (max-width: 803px){
-    :root{
-        font-size: 10px;
-    }
-} */
-
-
-/* @media  (max-width: 803px){
-    :root{
-        font-size: 10px;
-    }
-}
-
-
-@media  (max-width: 463px){
-    :root{
-        font-size: 8px;
-    }
-}
-
-@media  (max-width: 371px){
-    .arroe{
-        display: none;
-    }
-}
- */
-
 
 
 
@@ -292,7 +263,7 @@ body {
   }
   .projects .iteam{
     height: 250px; 
-    width: 400px; 
+    width: 350px; 
     background-color: black;
     border-radius: 10px;
   }
@@ -351,3 +322,51 @@ body {
     height: 200px;
   }
   
+
+
+
+  /* responsive page-1 */
+
+@media  (max-width: 803px){
+    :root{
+        font-size: 10px;
+    }
+    .page-1{
+        min-height: 65vh;
+    }
+    #nav ul{
+        display: none;
+    }
+    #arrow{
+        display: none;
+    }
+    .projects .iteam{
+       height: 200px;
+       width: 300px;
+    }
+    .tech-stack .stack{
+        height: 100px;
+        width: 200px;
+        margin-bottom: 150px;
+    }
+    .page-3 p{
+        line-height: 30px;
+    }
+}
+
+
+/*
+
+@media  (max-width: 463px){
+    :root{
+        font-size: 8px;
+    }
+}
+
+@media  (max-width: 371px){
+    .arroe{
+        display: none;
+    }
+}
+ */
+
